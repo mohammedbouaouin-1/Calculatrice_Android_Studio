@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_standard"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="Standard" />
+
+        <item
+            android:id="@+id/nav_scientifique"
+            android:icon="@android:drawable/ic_menu_compass"
+            android:title="Scientifique" />
+
+        <item
+            android:id="@+id/nav_historique"
+            android:icon="@android:drawable/ic_menu_recent_history"
+            android:title="Historique" />
+
+    </group>
+
+    <item android:title="Paramètres">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@android:drawable/ic_menu_preferences"
+                android:title="Paramètres" />
+
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@android:drawable/ic_menu_info_details"
+                android:title="À propos" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group>
+
+        <item
+            android:id="@+id/standard"
+            android:title="Standard "
+            app:showAsAction="never"/>
+
+        <item
+          android:id="@+id/scientifique"
+            android:title="Scientifique"
+            app:showAsAction="never"/>
+
+        <item
+            android:id="@+id/historique"
+            android:title="Historique "
+            app:showAsAction="never"/>
+
+    </group>
+</menu>
